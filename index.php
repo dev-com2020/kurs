@@ -18,7 +18,8 @@
             // require("kod/warunki.php");
             // require("kod/switch.php");
             // require("kod/petle.php");
-            require("kod/br_con.php");
+            // require("kod/br_con.php");
+            require("kod/funkcja.php");
             ?>
 
         </p>        
