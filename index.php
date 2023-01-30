@@ -15,7 +15,8 @@
             // require("kod/konwersja.php"); 
             // require("kod/zmienne.php");
             // require("kod/inkr.php");
-            require("kod/warunki.php");
+            // require("kod/warunki.php");
+            require("kod/switch.php");
             ?>
 
         </p>        

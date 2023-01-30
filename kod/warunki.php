@@ -1,6 +1,8 @@
 <?php
 $liczba = 20;
 $napis = 5;
+$liczba2 = $liczba < 0 ? -1 : 1;
+
 
 if ($liczba < 0){
     echo "zmienna ma wartość $liczba i jest mniejsza od zera.";
@@ -30,5 +32,7 @@ if(($liczba == 5) || ($liczba == 20)){
 if(($liczba <= 100 && $liczba >= 10) && ($licznik != 25 || $licznik == 15)){
     // instrukcje
 }
+
+
 
 ?>
