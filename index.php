@@ -12,9 +12,10 @@
         <p><b>Strona testowa</b><br>
             <?php
             // require("kod/operatory_string.php"); 
-            require("kod/konwersja.php"); 
+            // require("kod/konwersja.php"); 
             // require("kod/zmienne.php");
             // require("kod/inkr.php");
+            require("kod/warunki.php");
             ?>
 
         </p>        
