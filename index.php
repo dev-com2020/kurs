@@ -16,7 +16,8 @@
             // require("kod/zmienne.php");
             // require("kod/inkr.php");
             // require("kod/warunki.php");
-            require("kod/switch.php");
+            // require("kod/switch.php");
+            require("kod/petle.php");
             ?>
 
         </p>        

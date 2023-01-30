@@ -33,6 +33,14 @@ if(($liczba <= 100 && $liczba >= 10) && ($licznik != 25 || $licznik == 15)){
     // instrukcje
 }
 
+if($a < $b):
+    echo "Jakiś kod...";
+elseif($a > $b):
+    echo "Jakiś kod...";
+else:
+    echo "Jakiś kod...";
+endif;
+
 
 
 ?>
