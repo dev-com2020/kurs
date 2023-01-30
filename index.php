@@ -10,7 +10,8 @@
     <div>
         <h1>The Heading</h1>
         <p><b>Strona testowa</b><br>
-
+            <?php require("kod/zmienne.php");
+            ?>
 
         </p>        
     </div>
