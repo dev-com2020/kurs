@@ -10,7 +10,11 @@
     <div>
         <h1>The Heading</h1>
         <p><b>Strona testowa</b><br>
-            <?php require("kod/zmienne.php");
+            <?php
+            // require("kod/operatory_string.php"); 
+            require("kod/konwersja.php"); 
+            // require("kod/zmienne.php");
+            // require("kod/inkr.php");
             ?>
 
         </p>        
