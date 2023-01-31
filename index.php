@@ -11,6 +11,25 @@
         <h1>PHP</h1>
         <p><b>kurs podstawowy</b><br><br>
         <div>
+            <!-- <form method="get" action="wtorek/skrypt.php">
+                <input type="text" name="pole1"><br>
+                <input type="radio" name="radio1" value="opcja1">Opcja1<br>
+                <input type="radio" name="radio1" value="opcja2">Opcja2<br>
+                <input type="radio" name="radio1" value="opcja3">Opcja3<br>
+                <input type="submit" value="Wyslij">
+            </form> -->
+            <!-- <form method="post" action="wtorek/skrypt2.php">
+                <input type="text" name="pole1"><br>
+                <input type="submit" value="Wyslij">
+            </form> -->
+            <form name= "formularz1"
+            enctype="multipart/form-data"
+            method="post" 
+            action="wtorek/skrypt3.php">
+                <input type="file" name="plik1"><br>
+                <input type="submit" name="btnWyslij" value="Wyslij">
+            </form>
+
             <?php
             // require("kod/operatory_string.php"); 
             // require("kod/konwersja.php"); 
@@ -23,8 +42,10 @@
             // require("kod/funkcja.php");
             // require("wtorek/tablice.php");
             // require("wtorek/biblioteka.php");
-            require("wtorek/wskazniki.php");
+            // require("wtorek/wskazniki.php");
             ?>
+
+
         </div>
         </p>        
     </div>
