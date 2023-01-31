@@ -60,4 +60,6 @@ $tablica = array(
     "Numer" => "Numer3")
     );
 
+$kolory = ["f","b","d"];
+echo $kolory[1];
 ?>

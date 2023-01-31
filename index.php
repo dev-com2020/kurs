@@ -38,7 +38,12 @@
                 <input type="file" name="pliki[]"><br>
                 <input type="submit" name="btnWyslij" value="Wyslij">
             </form><br> -->
-            <a href="http://localhost/kurs/wtorek/skrypt5.php?name=pie.png">Plik do pobrania</a><br>
+            <!-- <a href="http://localhost/kurs/wtorek/skrypt5.php?name=pie.png">Plik do pobrania</a><br> -->
+            <form method="get" action="wtorek/skrypt6.php">
+                Wprowadź nazwę:
+                <input type="text" name="nazwa"><br>
+                <input type="submit" value="Zapisz">
+            </form>
             <?php
             // require("kod/operatory_string.php"); 
             // require("kod/konwersja.php"); 
@@ -52,6 +57,22 @@
             // require("wtorek/tablice.php");
             // require("wtorek/biblioteka.php");
             // require("wtorek/wskazniki.php");
+            // require("wtorek/stringi.php");
+            // require("wtorek/daty.php");
+            // checkdate()
+            // date()
+            // echo "date(Y-m-d) = " . date("Y-m-d") . "<br>";
+            // echo "date(d-m-Y) = " . date("d-m-Y") . "<br>";
+            // echo "date(j,M Y) = " . date("j, M Y") . "<br>";
+            // echo "date(G:i:s) = " . date("G:i:s") . "<br>";
+            // echo "<br>gmdate(Y-m-d G:i:s) = " . gmdate("T") . "<br>";
+            // echo "<br>gmdate(Y-m-d G:i:s) = " . gmdate("c") . "<br>";
+            // $date = DateTimeImmutable::createFromFormat('U', time());
+            // echo $date->format('Y-m-d');
+            // echo "<br>";
+            // echo $date->format('U');
+           
+
             ?>
 
 
