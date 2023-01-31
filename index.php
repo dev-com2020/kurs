@@ -22,7 +22,8 @@
             // require("kod/br_con.php");
             // require("kod/funkcja.php");
             // require("wtorek/tablice.php");
-            require("wtorek/biblioteka.php");
+            // require("wtorek/biblioteka.php");
+            require("wtorek/wskazniki.php");
             ?>
         </div>
         </p>        

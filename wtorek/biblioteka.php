@@ -65,7 +65,40 @@
 // }
 
 $tab1 = array(5, 7, 3, 1, 8, 2, 0, 4, 9, 6);
+$tab3 = array_reverse($tab1);
 $tab2 = array('jeden', 'dwa', 'trzy', 'cztery', 'pięć');
+$str = 'jeden, dwa, trzy';
+$arr = explode(',', $str,-2);
+echo $arr[0];
+foreach ($tab3 as $val) {
+    echo "$val<br> ";
+}
+// echo implode('-', $tab1);
 
+// foreach($tab1 as $val){
+//     echo "$val<br> ";
+// }
+// sort($tab1);
+// foreach($tab1 as $val){
+//     echo "$val ";
+// }
+
+// function sortuj($el1,$el2){
+//     if($el1 % 2 == 0){
+//         if($el2 % 2 == 0){
+//             return $el1 - $el2;
+//         }else{
+//             return -1;
+//         }
+//     }
+// }
+
+// foreach($tab1 as $val){
+//     echo "$val<br> ";
+// }
+// rsort($tab1);
+// foreach($tab1 as $val){
+//     echo "$val ";
+// }
 
 ?>
