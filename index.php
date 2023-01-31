@@ -8,8 +8,9 @@
 </head>
 <body>
     <div>
-        <h1>The Heading</h1>
-        <p><b>Strona testowa</b><br>
+        <h1>PHP</h1>
+        <p><b>kurs podstawowy</b><br><br>
+        <div>
             <?php
             // require("kod/operatory_string.php"); 
             // require("kod/konwersja.php"); 
@@ -21,7 +22,7 @@
             // require("kod/br_con.php");
             require("kod/funkcja.php");
             ?>
-
+        </div>
         </p>        
     </div>
 </body>

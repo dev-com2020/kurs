@@ -52,8 +52,9 @@ function f(){
     echo "Wartość liczba = $liczba <br>";
 }
 
-f();
-echo "Wartość a = $a <br>";
-echo "Wartość liczba = $liczba <br>";
+// f();
+// echo "Wartość a = $a <br>";
+// echo "Wartość liczba = $liczba <br>";
+
 
 ?>
