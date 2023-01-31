@@ -22,14 +22,22 @@
                 <input type="text" name="pole1"><br>
                 <input type="submit" value="Wyslij">
             </form> -->
-            <form name= "formularz1"
+            <!-- <form name= "formularz1"
             enctype="multipart/form-data"
             method="post" 
             action="wtorek/skrypt3.php">
                 <input type="file" name="plik1"><br>
                 <input type="submit" name="btnWyslij" value="Wyslij">
+            </form> -->
+            <form name= "formularz1"
+            enctype="multipart/form-data"
+            method="post" 
+            action="wtorek/skrypt4.php">
+                <input type="file" name="pliki[]"><br>
+                <input type="file" name="pliki[]"><br>
+                <input type="file" name="pliki[]"><br>
+                <input type="submit" name="btnWyslij" value="Wyslij">
             </form>
-
             <?php
             // require("kod/operatory_string.php"); 
             // require("kod/konwersja.php"); 
