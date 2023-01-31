@@ -57,4 +57,33 @@ function f(){
 // echo "Wartość liczba = $liczba <br>";
 
 
+function dodajJeden(&$liczba){
+    $liczba = $liczba + 1;
+    }
+
+// $liczba = 1;
+// echo "Przed wywołaniem funkcji liczba = $liczba<br>";
+// dodajJeden($liczba);
+// echo "Po wywołaniu funkcji liczba = $liczba<br>";
+
+function dodaj_2(&$liczba,$ile = 1){
+    $liczba = $liczba + $ile;
+    }
+
+// $liczba = 1;
+// dodaj_2($liczba);
+// echo $liczba;
+// dodaj_2($liczba,5);
+// echo $liczba;
+
+function ff(...$dane){
+    $liczba_arg = func_num_args();
+    echo "Liczba argumentów funkcji = $liczba_arg<br>";
+}
+
+ff();
+ff(3);
+ff("Tomek","Janek");
+ff("Tomek","Janek",6);
+
 ?>

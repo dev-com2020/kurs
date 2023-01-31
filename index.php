@@ -20,7 +20,9 @@
             // require("kod/switch.php");
             // require("kod/petle.php");
             // require("kod/br_con.php");
-            require("kod/funkcja.php");
+            // require("kod/funkcja.php");
+            // require("wtorek/tablice.php");
+            require("wtorek/biblioteka.php");
             ?>
         </div>
         </p>        
